@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incident Response Strategy | MBA Presentation</title>
+  <script type="text/javascript" nonce="597c05788d6d4635884d86d6c10" src="//local.adguard.org?ts=1791498646664&amp;type=content-script&amp;dmn=ppl-ai-code-interpreter-files.s3.amazonaws.com&amp;url=https%3A%2F%2Fppl-ai-code-interpreter-files.s3.amazonaws.com%2Fweb%2Fdirect-files%2Fc08f453d922c94980cbefd26cba6164f%2Fed5236ca-76e2-401f-a63d-fb063b528259%2F0eb54730.html%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Checksum-Mode%3DENABLED%26X-Amz-Credential%3DASIA2F3EMEYEVBC3Z37I%252F20261008%252Fus-east-1%252Fs3%252Faws4_request%26X-Amz-Date%3D20261008T230319Z%26X-Amz-Expires%3D1979%26X-Amz-Security-Token%3DIQoJb3JpZ2luX2VjEGcaCXVzLWVhc3QtMSJGMEQCICuuQqgyP3KOF59DdXSy8OoIrcMiBEh%252B1P6tUKUD5WFrAiAV8N%252B2rIIUb7OulzOmbGciJhkSobOOQUnXlmr7apZaqCqABQgvEAEaDDY5OTc1MzMwOTcwNSIMRbVQODt6PB7vOEB4Kt0EZYvk3%252BQTUC4zxvDIs4H%252F7mAwtMOCp6tYTzYyMRyI6OuTWr0PLyVnmWaWKLrfKLlv%252BAAmAyVHG6VB5xL1EzycBwfCtmrFBTUN3GN3iywGHNaU0tG8B5dT6VbTq3trIdK%252FdbD8fXJMth%252FM%252FbMJXP4tQBMiqJ12Y5gX%252BvON1ybeEn57LH8u4okFqKBhDTkdcrW58o35ZzpRSbs8eHq1dwe5J70FseEk8zLduobE4omivn3AAGSFHjTXej7HPgWyMo26DlueESPA2Es0LzsBrz%252B60pn8tjt1uo7DiHNdNowbWLE%252B3hfD3M%252FW7QjWhfMZJE1wwDsEwoII%252FE7LlQ7TlWYjW7VPF%252FhrlafWJuDPok%252B77zwy8pE3fzHn%252BPwWMtUe6xue%252B2SygadxF5v3XnDHLpRUT%252BBBqUM1AAt13zKfZbHu5hycKI%252FXNmaRybOMVhKChl%252BFm3JLieAylBjo0mooUHB2EvtEF6UTnJ46u%252BryuO7qTxc%252BBYiMLY7H5WSuvIQ%252FzO1NidWGGdQcZdJBj7PkOU3XDk7NxLXhA35Cb%252F419%252FlIv2qJXdrPKiD%252F8gXsZAcfzxxpn0QYpudQhqbFDNLcPDOkVmRpYG1gpOjLiPv4f38lZopur63BGvBP0uGO6GJQmc0NYcWs8AX4XnlXoyxFd019tu9yfsROE2%252F8R2WCKPOKqT2ZdvHM1ZRzMGitbx0rk%252B60AgUy6qPTUnAxz2WgMV2P0Bm5vMmdAgopT%252BDULVUmfBK8msdWEch4MIvHO0inpo8UA7c3LVXud%252FqWLcXWXdie7kBYvRhHSFGm114HHOYwn7ag1gY6mQGWWMNAT5a%252FH5tVbuh3%252Ff9jspaBk1P%252BDz8Hgk6fMe0olZ5XZM0z3gYPy13PSf%252FdJ7cRMFWSoqb%252Fuerxx70rcvHfjkQiXxHU9DBlq%252FomWlNWQbNkFcJaKrAyMdbiBbrxAZPAyiWOAHxgA8L5ibkfSZH1mod9rh8UIALJYyptMF1nepLAq8k6%252B3WMicslfZ836W1G5%252FTauxL4jdM%253D%26X-Amz-SignedHeaders%3Dhost%26response-content-disposition%3Dattachment%253B%2520filename%253D%2522index.html%2522%253B%2520filename%252A%253DUTF-8%2527%2527index.html%26x-id%3DGetObject%26X-Amz-Signature%3D45fa16a51c23883a179cdbc8aea95fe2b2b59b6c3c5591d290495dae75be7002&amp;app=com.google.Chrome&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1&amp;stealth=1&amp;st-push&amp;st-loc&amp;st-dnt"></script><script type="text/javascript" nonce="597c05788d6d4635884d86d6c10" src="//local.adguard.org?ts=1791498646664&amp;name=AdGuard%20Extra&amp;type=user-script"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #070d18;
+      --card-bg: rgba(13, 25, 48, 0.72);
+      --card-border: rgba(241, 184, 45, 0.22);
+      --gold-primary: #f2ba36;
+      --gold-light: #fbe094;
+      --text-white: #ffffff;
+      --text-muted: #9ab0cf;
+      --glow-color: rgba(242, 186, 54, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 50% 15%, rgba(19, 44, 85, 0.6) 0%, transparent 60%),
+        radial-gradient(circle at 85% 85%, rgba(12, 28, 56, 0.5) 0%, transparent 50%),
+        radial-gradient(circle at 15% 80%, rgba(15, 33, 64, 0.4) 0%, transparent 50%);
+      color: var(--text-white);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(242, 186, 54, 0.25) 1px, transparent 1px);
+      background-size: 40px 40px;
+      opacity: 0.25;
+      mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 80%);
+    }
+
+    .deck-container {
+      position: relative;
+      width: 90vw;
+      max-width: 1140px;
+      height: 78vh;
+      min-height: 580px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .slide {
+      display: none;
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.45s ease, transform 0.45s ease;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .slide.active {
+      display: flex;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .eyebrow {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-primary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .eyebrow::after {
+      content: "";
+      height: 1px;
+      width: 40px;
+      background: var(--gold-primary);
+      opacity: 0.6;
+    }
+
+    .slide-title {
+      font-family: 'Cinzel', serif;
+      font-size: 2.85rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1.15;
+      margin-bottom: 24px;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .title-slide {
+      text-align: center;
+      align-items: center;
+    }
+
+    .title-slide .eyebrow {
+      justify-content: center;
+    }
+    .title-slide .eyebrow::after {
+      display: none;
+    }
+
+    .title-slide .slide-title {
+      font-size: 3.6rem;
+      background: linear-gradient(135deg, #ffffff 10%, #fbe094 50%, #f2ba36 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 16px;
+    }
+
+    .title-subtitle {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 34px auto;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+
+    .pill-group {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      background: rgba(18, 38, 74, 0.85);
+      border: 1px solid rgba(242, 186, 54, 0.35);
+      color: var(--text-white);
+      padding: 8px 20px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      backdrop-filter: blur(8px);
+      transition: all 0.3s ease;
+    }
+
+    .pill:hover {
+      border-color: var(--gold-primary);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px var(--glow-color);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 24px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+      opacity: 0.4;
+    }
+
+    .card-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      color: var(--gold-primary);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .stat-number {
+      font-size: 2.75rem;
+      font-weight: 700;
+      color: var(--text-white);
+      line-height: 1;
+      margin-bottom: 6px;
+      font-feature-settings: "tnum";
+    }
+
+    .stat-caption {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .feature-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      color: #e2eaf5;
+    }
+
+    .feature-bullet {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold-primary);
+      margin-top: 7px;
+      flex-shrink: 0;
+      box-shadow: 0 0 8px var(--gold-primary);
+    }
+
+    .horizontal-strip {
+      margin-top: 18px;
+      background: rgba(11, 23, 44, 0.7);
+      border: 1px solid rgba(242, 186, 54, 0.2);
+      border-radius: 12px;
+      padding: 16px 24px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      backdrop-filter: blur(10px);
+    }
+
+    .strip-item h5 {
+      color: var(--gold-primary);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+
+    .strip-item p {
+      color: #d1deed;
+      font-size: 0.82rem;
+      line-height: 1.35;
+    }
+
+    .progress-bar-container {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      margin-top: 12px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #d49a1f, #f2ba36);
+      border-radius: 999px;
+      width: 0%;
+      transition: width 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    /* Strict APA References Style with proper hanging indent */
+    .reference-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 24px 32px;
+      max-height: 480px;
+      overflow-y: auto;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .reference-box::-webkit-scrollbar {
+      width: 6px;
+    }
+    .reference-box::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+    }
+    .reference-box::-webkit-scrollbar-thumb {
+      background: var(--gold-primary);
+      border-radius: 4px;
+    }
+
+    .apa-reference {
+      padding-left: 2.2rem;
+      text-indent: -2.2rem;
+      margin-bottom: 14px;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: #dbe7f5;
+      text-align: left;
+    }
+
+    .apa-reference:last-child {
+      margin-bottom: 0;
+    }
+
+    .apa-reference a {
+      color: var(--gold-light);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      word-break: break-all;
+    }
+
+    .apa-reference a:hover {
+      color: #ffffff;
+    }
+
+    .bottom-nav {
+      position: absolute;
+      bottom: 26px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: rgba(10, 21, 40, 0.85);
+      border: 1px solid rgba(242, 186, 54, 0.25);
+      padding: 8px 18px;
+      border-radius: 999px;
+      backdrop-filter: blur(14px);
+      z-index: 100;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-arrow {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: var(--text-white);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.85rem;
+    }
+
+    .nav-arrow:hover {
+      background: var(--gold-primary);
+      color: var(--bg-dark);
+      border-color: var(--gold-primary);
+    }
+
+    .nav-dots {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .nav-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.25);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .nav-dot.active {
+      background: var(--gold-primary);
+      width: 22px;
+      border-radius: 999px;
+      box-shadow: 0 0 10px var(--gold-primary);
+    }
+
+    .counter-display {
+      color: var(--text-muted);
+      font-size: 0.82rem;
+      font-weight: 500;
+      min-width: 38px;
+      text-align: right;
+    }
+
+    .speaker-drawer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(6, 13, 24, 0.96);
+      border-top: 1px solid var(--gold-primary);
+      padding: 18px 30px;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+      z-index: 200;
+      font-size: 0.92rem;
+      color: #e2eaf5;
+      line-height: 1.55;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+
+    .speaker-drawer.open {
+      transform: translateY(0);
+    }
+
+    .drawer-toggle {
+      position: absolute;
+      top: -30px;
+      right: 25px;
+      background: var(--bg-dark);
+      border: 1px solid var(--gold-primary);
+      border-bottom: none;
+      color: var(--gold-primary);
+      padding: 4px 14px;
+      border-radius: 8px 8px 0 0;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="particles"></div>
+
+  <div class="deck-container">
+
+    <!-- Slide 1: Title -->
+    <div class="slide title-slide active" data-slide="1">
+      <div class="eyebrow">Executive Strategy Presentation</div>
+      <h1 class="slide-title">Incident Response Strategy</h1>
+      <p class="title-subtitle">Defending Edge Infrastructure Against Unauthenticated Command Injection (CVE-2024-3400)</p>
+
+      <div class="pill-group">
+        <div class="pill">NIST SP 800-61</div>
+        <div class="pill">MITRE ATT&CK T1190</div>
+        <div class="pill">Two-Line Incident Model</div>
+        <div class="pill">Executive Governance</div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Vulnerability Analysis & Adversary Mapping -->
+    <div class="slide" data-slide="2">
+      <div class="eyebrow">Threat Profile & Technique Analysis</div>
+      <h2 class="slide-title">Vulnerability Analysis</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-label">Target Architecture & Flaw</div>
+          <div class="stat-number" data-target="10" data-decimals="1">0.0</div>
+          <div class="stat-caption">Maximum CVSS 3.1 Severity Rating (Critical)</div>
+
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" data-progress="100%"></div>
+          </div>
+
+          <ul class="feature-list" style="margin-top: 18px;">
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Product:</strong> Palo Alto Networks GlobalProtect (PAN-OS edge gateway).</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Mechanism:</strong> Arbitrary command injection with highest system privilege (root).</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Perimeter Risk:</strong> Internet-exposed gateway; no authentication required.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Adversary Mapping</div>
+          <div style="font-family: 'Cinzel', serif; font-size: 1.85rem; color: var(--gold-light); margin-bottom: 6px;">T1190</div>
+          <div class="stat-caption">MITRE ATT&CK: Exploit Public-Facing Application</div>
+
+          <ul class="feature-list" style="margin-top: 22px;">
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Zero Phishing:</strong> Threat actors bypass social engineering and credentials entirely.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Initial Access:</strong> Direct exploitation of edge boundary separating internet from private LAN.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Immediate Impact:</strong> Gaining root yields direct network pivot and telemetry evasion.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="horizontal-strip">
+        <div class="strip-item">
+          <h5>Attack Vector</h5>
+          <p>Direct HTTP/S injection</p>
+        </div>
+        <div class="strip-item">
+          <h5>User Interaction</h5>
+          <p>Zero interaction required</p>
+        </div>
+        <div class="strip-item">
+          <h5>Remediation</h5>
+          <p>Vendor patch & interface isolation</p>
+        </div>
+        <div class="strip-item">
+          <h5>Active Exploitation</h5>
+          <p>Disclosed in-the-wild (CISA KEV)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Incident Team Structure & Escalation -->
+    <div class="slide" data-slide="3">
+      <div class="eyebrow">Operating Model & Governance</div>
+      <h2 class="slide-title">Team Roles & Responsibilities</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-label">Operational Hierarchy</div>
+          <div class="stat-number" data-target="2">0</div>
+          <div class="stat-caption">Tiered Lines of Defense</div>
+
+          <ul class="feature-list" style="margin-top: 18px;">
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Line 1 (Triage):</strong> Continuous monitoring, alert verification, and noise filtering.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Line 2 (Resolution):</strong> Deep investigation, technical mitigation, and systems engineering.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Incident Commander:</strong> Directs bridge, coordinates engineering teams, drives SLA.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Readiness & Governance</div>
+          <div class="stat-number" data-target="24">0</div>
+          <div class="stat-caption">7 Days / Week On-Call Readiness</div>
+
+          <ul class="feature-list" style="margin-top: 18px;">
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Out-of-Hours SLAs:</strong> Clear paging rotations eliminate off-hours response lag.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Decision Mandate:</strong> Incident leads hold pre-authorized containment power.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Culture:</strong> Blameless operational mindset driving rapid root-cause isolation.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="horizontal-strip">
+        <div class="strip-item">
+          <h5>Line 1 Focus</h5>
+          <p>Triage & anomaly validation</p>
+        </div>
+        <div class="strip-item">
+          <h5>Line 2 Focus</h5>
+          <p>Technical fix & containment</p>
+        </div>
+        <div class="strip-item">
+          <h5>Incident Lead</h5>
+          <p>Cross-team command & SLA</p>
+        </div>
+        <div class="strip-item">
+          <h5>Leadership Link</h5>
+          <p>Direct bridge to C-Suite & Legal</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Dual-Track Stakeholder Communication -->
+    <div class="slide" data-slide="4">
+      <div class="eyebrow">Crisis Information Architecture</div>
+      <h2 class="slide-title">Dual-Track Communication</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-label">Track A: Engineering & SecOps</div>
+          <div style="font-family: 'Cinzel', serif; font-size: 1.5rem; color: var(--gold-light); margin-bottom: 8px;">Technical Stream</div>
+          <div class="stat-caption">High-frequency, granular diagnostic collaboration</div>
+
+          <ul class="feature-list" style="margin-top: 18px;">
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Indicators of Compromise:</strong> IP lists, file hashes, and specific command execution artifacts.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Log Dumps:</strong> PAN-OS authentication, gateway access logs, and process crash data.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Patch Schedules:</strong> Maintenance windows, fallback procedures, and validation tests.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Track B: Executive & Legal</div>
+          <div style="font-family: 'Cinzel', serif; font-size: 1.5rem; color: var(--gold-light); margin-bottom: 8px;">Leadership Stream</div>
+          <div class="stat-caption">Low-latency, impact-driven strategic visibility</div>
+
+          <ul class="feature-list" style="margin-top: 18px;">
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Operational Impact:</strong> Perimeter integrity, exposed services, and corporate downtime.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Risk Translation:</strong> Plain-language assessments without technical jargon.</span>
+            </li>
+            <li class="feature-item">
+              <span class="feature-bullet"></span>
+              <span><strong>Regulatory Alignment:</strong> Breach notification requirements and external legal readiness.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="horizontal-strip">
+        <div class="strip-item">
+          <h5>Frequency</h5>
+          <p>30m Tech / 60m Exec briefings</p>
+        </div>
+        <div class="strip-item">
+          <h5>Channels</h5>
+          <p>Dedicated Slack War Room & Bridge</p>
+        </div>
+        <div class="strip-item">
+          <h5>Spokesperson</h5>
+          <p>Designated Incident Lead</p>
+        </div>
+        <div class="strip-item">
+          <h5>Objective</h5>
+          <p>Zero panic; clear decision authority</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: The Four-Phase Response Lifecycle -->
+    <div class="slide" data-slide="5">
+      <div class="eyebrow">NIST SP 800-61 Alignment</div>
+      <h2 class="slide-title">Incident Response Lifecycle</h2>
+
+      <div class="grid-4">
+        <div class="card">
+          <div class="card-label">Phase 01</div>
+          <h3 style="color: var(--gold-light); font-size: 1.15rem; margin-bottom: 8px;">Preparation</h3>
+          <p class="stat-caption">Tool readiness & playbooks</p>
+          <ul class="feature-list" style="margin-top: 14px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span>Pre-built edge runbooks</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>Validated on-call schedules</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>Pre-authorized decision roles</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Phase 02</div>
+          <h3 style="color: var(--gold-light); font-size: 1.15rem; margin-bottom: 8px;">Detection</h3>
+          <p class="stat-caption">Anomalies & correlation</p>
+          <ul class="feature-list" style="margin-top: 14px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span>Perimeter anomaly alerts</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>IoC matching in Splunk</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>False-positive triage</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Phase 03</div>
+          <h3 style="color: var(--gold-light); font-size: 1.15rem; margin-bottom: 8px;">Containment</h3>
+          <p class="stat-caption">Isolation & recovery</p>
+          <ul class="feature-list" style="margin-top: 14px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span>Interface boundary isolation</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>Emergency vendor patch</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>Forensic evidence lock</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Phase 04</div>
+          <h3 style="color: var(--gold-light); font-size: 1.15rem; margin-bottom: 8px;">Post-Incident</h3>
+          <p class="stat-caption">Continuous improvement</p>
+          <ul class="feature-list" style="margin-top: 14px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span>Blameless post-mortem</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>Identify procedural blockers</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span>Update playbooks & training</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="horizontal-strip">
+        <div class="strip-item">
+          <h5>Core Goal</h5>
+          <p>Rapid mitigation at edge</p>
+        </div>
+        <div class="strip-item">
+          <h5>Standard</h5>
+          <p>NIST Computer Handling Guide</p>
+        </div>
+        <div class="strip-item">
+          <h5>Audit Trail</h5>
+          <p>All timestamps captured in Jira</p>
+        </div>
+        <div class="strip-item">
+          <h5>Outcome</h5>
+          <p>Hardened perimeter resilience</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6: Operational Tool Stack Architecture -->
+    <div class="slide" data-slide="6">
+      <div class="eyebrow">Enterprise Operational Architecture</div>
+      <h2 class="slide-title">Integrated Tool Stack</h2>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-label">Monitoring & Metrics</div>
+          <div style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: var(--gold-light); margin-bottom: 8px;">AWS & New Relic</div>
+          <div class="stat-caption">Real-time health and performance</div>
+          <ul class="feature-list" style="margin-top: 16px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>CloudWatch:</strong> Edge alarms and service availability tracking.</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>New Relic:</strong> Real-time performance anomalies and traffic spikes.</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">SIEM & Log Analytics</div>
+          <div style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: var(--gold-light); margin-bottom: 8px;">Splunk</div>
+          <div class="stat-caption">Centralized log aggregation</div>
+          <ul class="feature-list" style="margin-top: 16px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>IoC Hunting:</strong> Automated ingestion of firewall and proxy logs.</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>T1190 Queries:</strong> Rule sets tuned for root execution attempts.</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Incident Coordination</div>
+          <div style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: var(--gold-light); margin-bottom: 8px;">PagerDuty, Slack, Jira</div>
+          <div class="stat-caption">Alerting, war room & tracking</div>
+          <ul class="feature-list" style="margin-top: 16px;">
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>PagerDuty:</strong> On-call paging with automatic escalation.</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>Slack:</strong> Auto-created incident channels for engineers.</span></li>
+            <li class="feature-item"><span class="feature-bullet"></span><span><strong>Jira:</strong> Incident tracking, action items, and audit trail.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="horizontal-strip">
+        <div class="strip-item">
+          <h5>Detection</h5>
+          <p>CloudWatch & New Relic</p>
+        </div>
+        <div class="strip-item">
+          <h5>Analysis</h5>
+          <p>Splunk SIEM Correlation</p>
+        </div>
+        <div class="strip-item">
+          <h5>Response</h5>
+          <p>PagerDuty & Slack War Room</p>
+        </div>
+        <div class="strip-item">
+          <h5>Governance</h5>
+          <p>Jira Incident Auditing</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7: APA References -->
+    <div class="slide" data-slide="7">
+      <div class="eyebrow">Academic & Industry Governance</div>
+      <h2 class="slide-title">References</h2>
+
+      <div class="reference-box">
+        <div class="apa-reference">
+          Cranford, J. (2023, February 27). <em>Incident Response Plan: Frameworks and steps</em>. CrowdStrike. <a href="https://www.crowdstrike.com/en-us/cybersecurity-101/incident-response/incident-response-steps/" target="_blank">https://www.crowdstrike.com/en-us/cybersecurity-101/incident-response/incident-response-steps/</a>
+        </div>
+        <div class="apa-reference">
+          De Yeager, E. (2025, November 16). <em>What is GlobalProtect? Palo Alto Networks VPN Gateway explained</em>. Cyberwarzone. <a href="https://cyberwarzone.com/2025/11/16/what-is-globalprotect-palo-alto-networks-vpn-gateway-explained/" target="_blank">https://cyberwarzone.com/2025/11/16/what-is-globalprotect-palo-alto-networks-vpn-gateway-explained/</a>
+        </div>
+        <div class="apa-reference">
+          MITRE ATT&amp;CK. (n.d.). <em>Technique T1190: Exploit Public-Facing Application</em>. MITRE. <a href="https://attack.mitre.org/techniques/T1190/" target="_blank">https://attack.mitre.org/techniques/T1190/</a>
+        </div>
+        <div class="apa-reference">
+          National Institute of Standards and Technology. (2026, June 17). <em>CVE-2024-3400 detail</em>. National Vulnerability Database. <a href="https://nvd.nist.gov/vuln/detail/cve-2024-3400" target="_blank">https://nvd.nist.gov/vuln/detail/cve-2024-3400</a>
+        </div>
+        <div class="apa-reference">
+          Palo Alto Networks. (n.d.). <em>What is an Incident Response Team (IRT)?</em> <a href="https://www.paloaltonetworks.com/cyberpedia/what-is-an-incident-response-team" target="_blank">https://www.paloaltonetworks.com/cyberpedia/what-is-an-incident-response-team</a>
+        </div>
+        <div class="apa-reference">
+          Rapid7. (2026, May 21). <em>Rapid7 Q1 2026 Threat Landscape report finds vulnerability exploitation overtakes social engineering as the top initial access vector</em>. <a href="https://investors.rapid7.com/news/news-details/2026/Rapid7-Q1-2026-Threat-Landscape-Report-Finds-Vulnerability-Exploitation-Overtakes-Social-Engineering-as-the-Top-Initial-Access-Vector/default.aspx" target="_blank">https://investors.rapid7.com/news/news-details/2026/Rapid7-Q1-2026-Threat-Landscape-Report-Finds-Vulnerability-Exploitation-Overtakes-Social-Engineering-as-the-Top-Initial-Access-Vector/default.aspx</a>
+        </div>
+        <div class="apa-reference">
+          Snyder, C., &amp; Asadoorian, P. (2026, March 3). <em>Firewall Vulnerability Exploitation: Why the edge is fraying</em>. Eclypsium. <a href="https://eclypsium.com/blog/firewall-vulnerability-exploitation-why-the-edge-is-fraying/" target="_blank">https://eclypsium.com/blog/firewall-vulnerability-exploitation-why-the-edge-is-fraying/</a>
+        </div>
+        <div class="apa-reference">
+          Yuceel, H. C. (2024, September 19). <em>CVE-2024-3400: Palo Alto PAN-OS command injection vulnerability explained</em>. Picus Security. <a href="https://www.picussecurity.com/resource/blog/cve-2024-3400-palo-alto-pan-os-command-injection-vulnerability-explained" target="_blank">https://www.picussecurity.com/resource/blog/cve-2024-3400-palo-alto-pan-os-command-injection-vulnerability-explained</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Navigation Bar -->
+  <div class="bottom-nav">
+    <button class="nav-arrow" id="prevBtn" title="Previous Slide (Left Arrow)">&#8592;</button>
+    <div class="nav-dots" id="navDots">
+      <div class="nav-dot active" data-target="0"></div>
+      <div class="nav-dot" data-target="1"></div>
+      <div class="nav-dot" data-target="2"></div>
+      <div class="nav-dot" data-target="3"></div>
+      <div class="nav-dot" data-target="4"></div>
+      <div class="nav-dot" data-target="5"></div>
+      <div class="nav-dot" data-target="6"></div>
+    </div>
+    <button class="nav-arrow" id="nextBtn" title="Next Slide (Right Arrow)">&#8594;</button>
+    <div class="counter-display" id="counter">1 / 7</div>
+  </div>
+
+  <!-- Collapsible Presenter Notes Drawer -->
+  <div class="speaker-drawer" id="speakerDrawer">
+    <button class="drawer-toggle" id="drawerToggle">PRESENTER NOTES</button>
+    <div id="notesText"></div>
+  </div>
+
+  <script>
+    const notesData = [
+      "Hi everyone, thanks for being here and listening to my presentation. In the next 10 minutes I am going to walk you through our Incident Response Strategy, looking specifically at a major perimeter vulnerability: CVE-2024-3400 in Palo Alto Networks. With remote work becoming standard after 2020, our VPN gateways and firewalls now sit right at the edge of the network facing the open internet. So in this presentation, I'll keep it simple and practical: what this vulnerability actually is, how an adversary exploits it, how we structure our incident response team to handle it, the exact tools we use, and how we keep both our technical teams and executives aligned during a crisis.",
+      "On this slide, I want to break down the actual threat so you understand what we are dealing with. In April 2024, Palo Alto disclosed a critical flaw in their GlobalProtect software. It received a CVSS score of 10.0 out of 10, which is the absolute highest severity you can get. If you look at this through the MITRE ATT&CK framework, it maps directly to Technique T1190, which is Exploit Public-Facing Application. The scary part here is that the attacker doesn't need to phish anyone, trick an employee, or steal a password. Because this gateway sits right on the edge, the attacker can send commands directly to it over the internet and gain root access instantly. If an attacker gets root on your edge firewall, traditional internal defenses mean nothing unless your response team can catch it immediately.",
+      "Now, looking at the team structure, having managed high-priority incidents myself, I know that when an incident happens, you cannot waste time figuring out who does what. So I structure the team into two clear lines. Line 1 is on continuous monitoring. Their job is triage: looking at anomalies, filtering out false alarms, and confirming when something is real. The minute they verify a real threat, it escalates to Line 2. Here, the Incident Lead steps in and takes full ownership of the incident bridge. That lead coordinates the network engineers, the security analysts, and the platform teams. And just as importantly, we enforce a strict 24/7 on-call rotation. Cyberattacks don't happen just during office hours, so having guaranteed coverage out-of-hours means we don't lose hours trying to reach an engineer on the weekend.",
+      "During a major security incident, communication can easily fall apart if everyone is getting the same information. That's why we split communication into two distinct tracks. On the technical side, SecOps and infrastructure engineers need deep operational details: exact Indicators of Compromise, firewall log dumps, command execution traces, and patch schedules. But if you take that technical jargon to executive leadership or the board, it just creates confusion. Executives need the business reality: is our perimeter exposed, are core customer services down, what is our legal or regulatory liability, and what resources do we need approved? Giving each group exactly what they need keeps the response moving fast without panic.",
+      "This slide maps our operational workflow directly to the four NIST incident response phases. Phase 1 is Preparation, which is all about having our playbooks, tools, and decision authority ready before an attack happens. Phase 2 is Detection and Analysis, where we monitor edge traffic, match suspicious requests against known IoCs, and confirm what systems are impacted. Phase 3 is Containment, Eradication, and Recovery. Here, we isolate the vulnerable gateway interface, apply the vendor patch, make sure the attacker doesn't have persistence, and bring services back up safely. And Phase 4 is Post-Incident Activity. We run a blameless post-mortem with everyone involved, find out what slowed us down, and update our playbooks so the same attack cannot hit us twice.",
+      "Finally, a response strategy only works if the tools behind it are actually connected. In practice, this is how our tool stack operates. We use AWS CloudWatch and New Relic for real-time monitoring to catch traffic spikes and system health issues. At the same time, all our firewall logs flow into Splunk, where we run specific queries built around MITRE Technique T1190 to detect unauthenticated commands. When a high-severity alert fires, PagerDuty automatically pages the on-call engineer, while Slack spins up a dedicated incident war-room channel so the right teams can jump on immediately. And every action, decision, and post-mortem item is logged and tracked in Jira. That way, monitoring, alerting, communication, and governance are completely tied together.",
+      "To wrap up, these are the academic and industry sources that ground this whole plan. We have official vulnerability data from NIST and vendor advisories from Palo Alto Networks and Picus Security detailing CVE-2024-3400. We also use CrowdStrike's operational breakdown of the NIST framework, research from Rapid7 and Eclypsium on edge exploitation trends, and the MITRE ATT&CK framework for Technique T1190. Thank you for listening, and I'm happy to take any questions."
+    ];
+
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.nav-dot');
+    const counter = document.getElementById('counter');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const notesText = document.getElementById('notesText');
+    const drawer = document.getElementById('speakerDrawer');
+    const drawerToggle = document.getElementById('drawerToggle');
+
+    let currentIndex = 0;
+
+    function animateValue(obj, start, end, duration, decimals = 0) {
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        const currentVal = (progress * (end - start) + start);
+        obj.innerHTML = decimals > 0 ? currentVal.toFixed(decimals) : Math.floor(currentVal);
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    }
+
+    function triggerSlideAnimations(slideEl) {
+      const stats = slideEl.querySelectorAll('.stat-number');
+      stats.forEach(stat => {
+        const target = parseFloat(stat.getAttribute('data-target'));
+        const decimals = parseInt(stat.getAttribute('data-decimals') || '0');
+        animateValue(stat, 0, target, 1100, decimals);
+      });
+
+      const bars = slideEl.querySelectorAll('.progress-bar-fill');
+      bars.forEach(bar => {
+        bar.style.width = '0%';
+        setTimeout(() => {
+          bar.style.width = bar.getAttribute('data-progress');
+        }, 80);
+      });
+    }
+
+    function showSlide(index) {
+      if (index < 0 || index >= slides.length) return;
+
+      slides.forEach(s => s.classList.remove('active'));
+      dots.forEach(d => d.classList.remove('active'));
+
+      currentIndex = index;
+      slides[currentIndex].classList.add('active');
+      dots[currentIndex].classList.add('active');
+      counter.innerText = `${currentIndex + 1} / ${slides.length}`;
+      notesText.innerText = notesData[currentIndex];
+
+      triggerSlideAnimations(slides[currentIndex]);
+    }
+
+    prevBtn.addEventListener('click', () => showSlide(currentIndex - 1));
+    nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
+
+    dots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => showSlide(idx));
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'Space') {
+        showSlide(currentIndex + 1);
+      } else if (e.key === 'ArrowLeft') {
+        showSlide(currentIndex - 1);
+      } else if (e.key.toLowerCase() === 's') {
+        drawer.classList.toggle('open');
+      }
+    });
+
+    drawerToggle.addEventListener('click', () => {
+      drawer.classList.toggle('open');
+    });
+
+    // Initialize first slide
+    showSlide(0);
+  </script>
+</body>
+</html>
